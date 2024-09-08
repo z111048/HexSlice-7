@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap'); */
+
+body {
+  font-family: 'Castoro', serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: auto;
+}
+
+.section-vito {
+  padding-top: 160px;
+}
+
+.section-vito .vito-title,
+.section-resume .resume-title {
+  font-size: 128px;
+  line-height: 192px;
+  letter-spacing: 0.12em;
+}
+
+.section-vito .vito-content {
+  width: 636px;
+  /* height: 848px; */
+  margin: auto;
+}
+
+.section-vito .vito-content img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.section-resume .resume-content-bg {
+  background: #efefef;
+}
+.section-resume .resume-content {
+  padding: 48px 0;
+}
+
+.section-resume .resume-title {
+  text-align: right;
+}
+
+.section-resume .resume-content p {
+  margin-left: auto;
+  width: 636px;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.section-introduction {
+  padding: 80px 0px 160px;
+}
+
+.section-introduction .item + .item {
+  margin-top: 40px;
+}
+
+.section-introduction .item h3 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  margin-bottom: 16px;
+}
+
+.section-introduction .introduction-items .item:nth-child(1) p + p {
+  margin-top: 8px;
+}
+
+.section-introduction .introduction-items .item:nth-child(2) p + p {
+  margin-top: 16px;
+}
+
+.section-introduction .introduction-items .item:nth-child(3) p + p {
+  margin-top: 16px;
+}
+
+.section-introduction .introduction-items .item:nth-child(4) p + p {
+  margin-top: 12px;
+}
+
+.section-introduction .introduction-items {
+  width: 636px;
+}
+
+.section-introduction .item p span {
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+  color: #949494;
+  display: block;
+  margin-top: 16px;
+}
+
+.section-introduction .item p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.footer {
+  background: #000000;
+  padding: 64px 0;
+}
+
+.footer .media-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .media-content img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer .media-content li:nth-child(2) {
+  margin: 0 40px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* https://ithelp.ithome.com.tw/articles/10273744 */
+/* 拿來借用一下~ */
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+/*已經被造訪過的超連結*/
+a:visited {
+  color: #593588;
+}
+/*滑鼠移過去的樣子*/
+a:hover {
+  color: #1961ce;
+}
+/*點擊不放時的樣子*/
+a:active {
+  color: #885f35;
+}
